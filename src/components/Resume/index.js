@@ -31,7 +31,7 @@ function Resume() {
 							<li>GraphQL</li>
 						</ul>
 					</Card.Text>
-					<Card.Title>Other Skills</Card.Title>
+					<Card.Title>Additional Skills</Card.Title>
 					<Card.Text>
 						<ul>
 							<li>Leadership, Mentoring, Training</li>
