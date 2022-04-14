@@ -24,7 +24,7 @@ function About() {
 							width={171}
 							height={180}
 							src={headshot}
-							className="img-fluid rounded-circle"
+							className="img-fluid"
 							alt="Candid photo of Paul Guerra"
 						/>
 					</Figure>

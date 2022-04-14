@@ -1,51 +1,51 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import CardGroup from "react-bootstrap/CardGroup";
 
 function Projects() {
 	const projectList = [
-		// {
-		// 	name: "FightMe IRL",
-		// 	image: require("../../images/FMIRL.png"),
-		// 	description: "TimeKiller-0: Javascript/MySQL/NPM/Heroku",
-		// 	link: "https://timekiller-0.herokuapp.com/",
-		// },
+		{
+			name: "FightMe IRL",
+			image: require("../../images/FMIRL.png"),
+			description: "MERN/JavaScript/Heroku",
+			link: "https://fight-me-irl.herokuapp.com/",
+		},
 		{
 			name: "TimeKiller-0 (TK0)",
 			image: require("../../images/TK0.png"),
-			description: "TimeKiller-0: Javascript/MySQL/NPM/Heroku",
+			description: "TimeKiller-0: JavaScript/MySQL/NPM/Heroku",
 			link: "https://timekiller-0.herokuapp.com/",
 		},
 		{
 			name: "CINEMANIACS",
 			image: require("../../images/CINEMANIACS.png"),
-			description: "CINEMANIACS: Javascript/API/HTML/CSS",
+			description: "CINEMANIACS: JavaScript/API/HTML/CSS",
 			link: "https://alfonsof4.github.io/CINEMANIACS/",
 		},
 		{
 			name: "Weather Dashboard",
 			image: require("../../images/WD.png"),
-			description: "Weather Dashboard: Javascript/API/HTML/CSS",
+			description: "Weather Dashboard: JavaScript/API/HTML/CSS",
 			link: "https://pdguerra12.github.io/Weather-Dashboard/",
 		},
 		{
 			name: "Git It Done",
 			image: require("../../images/GID.png"),
-			description: "Git It Done: Javascript/API/HTML/CSS",
+			description: "Git It Done: JavaScript/API/HTML/CSS",
 			link: "https://pdguerra12.github.io/git-it-done/",
 		},
 		{
 			name: "Work Day Scheduler",
 			image: require("../../images/WDS.png"),
-			description: "Work Day Scheduler: Javascript/HTML/CSS",
+			description: "Work Day Scheduler: JavaScript/HTML/CSS",
 			link: "https://pdguerra12.github.io/workday-scheduler/",
 		},
 		{
 			name: "Taskmaster Pro",
 			image: require("../../images/Taskmaster-Pro.png"),
-			description: "Taskmaster Pro: Javascript/HTML/CSS",
+			description: "Taskmaster Pro: JavaScript/HTML/CSS",
 			link: "https://pdguerra12.github.io/taskmaster-pro/",
 		},
 		{

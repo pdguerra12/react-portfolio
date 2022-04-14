@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Navigation from "./components/Nav";
 import Page from "./components/Page";
 import { GoMarkGithub } from "react-icons/go";
@@ -39,10 +39,10 @@ function App() {
 
 			<section id="my-contact" className="contact">
 				<div className="contact-info">
-					<IconContext.Provider value={{ size: "3em", color: "#2e374d" }}>
+					<IconContext.Provider value={{ size: "3em", color: "#fff" }}>
 						<h3>Contact Information</h3>
 						<p>Feel free to contact me with any questions!</p>
-						<a href="tel:432-557-2582">
+						<a href="tel:551-580-8095">
 							<AiFillPhone />
 						</a>
 						<a href="mailto:paul.guerra09@gmail.com" alt="email" target="blank">
