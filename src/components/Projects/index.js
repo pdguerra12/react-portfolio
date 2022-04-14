@@ -6,6 +6,12 @@ import CardGroup from "react-bootstrap/CardGroup";
 
 function Projects() {
 	const projectList = [
+		// {
+		// 	name: "FightMe IRL",
+		// 	image: require("../../images/FMIRL.png"),
+		// 	description: "TimeKiller-0: Javascript/MySQL/NPM/Heroku",
+		// 	link: "https://timekiller-0.herokuapp.com/",
+		// },
 		{
 			name: "TimeKiller-0 (TK0)",
 			image: require("../../images/TK0.png"),
